@@ -1,0 +1,10 @@
+.vscode/
+.DS_Store
+
+# Non-coding deliverables and reference material
+*.docx
+*.pdf
+CSS142P-FinalProject.md
+CSS142P-FinalProject\ \(1\).md
+tasklist.txt
+todolist.txt
