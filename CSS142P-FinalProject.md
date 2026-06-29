@@ -85,10 +85,10 @@ The main performance measures are:
 10. Currency depletion rate
 
 Inclusions:  
-The study includes target SSR probability, hard pity, soft pity, carryover pity, token exchange, pull budget, player segments, frustration score, and simulated retention probability.
+The study includes target SSR probability, hard pity, soft pity, carryover pity, token exchange, pull budget, player segments, frustration score, simulated retention probability, Atlas Academy-based availability weighting, and repeat-copy motivation for strengthening characters.
 
 Exclusions:  
-The study excludes real-money revenue optimization, actual private player spending data, social influence, character popularity differences, story attachment, game balance, multiple-copy mechanics, PvP ranking pressure, and exact reproduction of any commercial gacha game.
+The study excludes real-money revenue optimization, actual private player spending data, social influence, character popularity differences, story attachment, game balance, PvP ranking pressure, and exact reproduction of any commercial gacha game.
 
 Baseline Scenario:  
 Scenario A: FGO-style hard pity system with low target probability and high hard-pity threshold. Pity does not carry over between banners.
@@ -131,7 +131,9 @@ CHAPTER 5\. PROPOSED CONCEPTUAL MODEL
 System Boundary Diagram Description:  
 The system contains four major components: the player population, the gacha banner, the pity-system policy, and the retention model.
 
-The player population contains synthetic player types with different pull budgets and frustration tolerance levels. The gacha banner contains the target reward probability, banner duration, pity threshold, and available summon rules. The pity-system policy determines whether progress resets, carries over, increases probability, or accumulates tokens. The retention model updates the player’s continuation probability based on success, failure, currency depletion, and wasted progress.
+The player population contains synthetic player types with different pull budgets and frustration tolerance levels. The gacha banner contains the target reward probability, banner duration, pity threshold, and available summon rules. The pity-system policy determines whether progress resets, carries over, increases probability, or accumulates tokens. The retention model updates the player’s continuation probability based on success, failure, currency depletion, wasted progress, and the desire to keep pulling for duplicate copies that strengthen a character.
+
+Atlas Academy metadata is used as a weighting layer for availability and repeat-copy pressure rather than as a separate analysis thread. In this framing, limited or story-locked servants increase acquisition friction, while stronger duplicate incentives feed into retention and banner continuation assumptions.
 
 Conceptual Flow:
 
