@@ -1,0 +1,7 @@
+check,passed
+deterministic_success,True
+zero_rate_until_pity,True
+zero_pull_boundary,True
+carryover_behavior,True
+token_conservation,True
+dupe_utility_monotonic,True

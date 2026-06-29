@@ -1,6 +1,0 @@
-scenario,acquisition_rate,avg_success_banners,avg_failed_banners,avg_total_pulls,pity_activation_rate,token_redemption_rate,avg_frustration,churn_rate,avg_retention_probability,pity_threshold
-baseline_hard_pity,0.7028,1.49955,0.44395,181.5208,0.0537,0.0,0.6564538568722944,0.9889,0.0111,330
-improved_base_rate,0.7565,1.83095,0.3931,180.99425,0.03265,0.0,0.5982925583513709,0.9753,0.0247,330
-soft_pity,0.70135,1.53185,0.44475,181.6185,5e-05,0.0,0.6481633285714286,0.98575,0.01425,330
-carryover_pity,0.7028,1.49955,0.44395,181.5208,0.0537,0.0,0.6564538568722944,0.9889,0.0111,330
-token_exchange,0.7028,1.49955,0.44395,181.5208,0.0537,0.0,0.6564538568722944,0.9889,0.0111,330
