@@ -177,4 +177,3 @@ Additional Sensitivity Tests:
 
 Revised Recommendation Criteria:  
 The recommended policy should not be selected only by highest acquisition rate. It should be selected based on the best balance of acquisition rate, lower wasted progress, lower frustration, lower churn propensity, and consistency across player segments.
-
